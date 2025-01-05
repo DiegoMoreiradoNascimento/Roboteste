@@ -12,7 +12,7 @@ client.on('ready', () => {
 });
 
 client.on('message', msg => {
-    if (msg.body.toLocaleLowerCase() == '!ping') {
+    if (msg.body.toLocaleLowerCase() == 'ping') {
         msg.reply('pong');
     }
 });
